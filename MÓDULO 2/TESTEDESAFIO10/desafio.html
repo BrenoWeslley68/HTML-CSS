@@ -3,151 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-    <style>
-        body {
-            background-color: #70faae;
-            margin: 0px;
-
-        }
-        header {
-            background-color: #04d462;
-            padding: 10px;
-            color: white;
-            margin: 0px;
-            
-           
-        }
-        div{
-            text-align: center;
-        }
-        h2 { 
-            color: green;
-            padding: 20px;
-        }
-        h3{
-            color: green;
-            background-color: rgba(0, 128, 0, 0.205);
-            padding: 0px 0px 0px 20px;
-        }
-        h4{ 
-            padding: 0px 0px 0px 20px;
-            margin: 0px;
-        }
-        main {
-            background-color: white;
-            margin: 0px 100px 0px 100px;
-        }
-        p {
-            padding: 0px 0px 0px 20px;
-        }
-        footer{
-            margin: 0px 100px 0px 100px;
-            background-color: white;
-        }
-        section {
-            background-color: #70FAAE;
-            margin: 10px;
-            border-radius: 10px;
-            padding: 20px;
-        }
-        
-    </style>
+    <title>Teste construção de site</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-            <h1>CURIOSIDADE DE TECNOLOGIA</h1>
-            <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
-        </div>
-       
-        
-            <div style="text-align: left;">
-                    <a href="">Home</a>
-                    <a href="">Notícias</a>
-                    <a href="">Curiosidades</a>
-                    <a href="">Fale Conosco</a>
-            </div>
-        
+        <h1>Você conectado com o mundo.</h1>
+        <p>Tudo que você sempre quis em um único lugar</p>
     </header>
-
+    <nav>
+        <a href="">Home</a>
+        <a href="">Fale conosco</a>
+        <a href="">Nossos serviços</a>
+        <a href="">Feedbacks</a>
+        <a href="">Sobre nós</a>
+    </nav>
     <main>
-        <h2 style="margin: 0px ;">HISTÓRIA DO MASCOTE DO ANDROID</h2>
-        <p>Provavelmente você já sabe que o sistema operacional Android, mantido 
-            pela Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o
-        seu simpático mascote tem uma nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+        <article>
+            <h2>Construindo um site de técnologia</h2>
+            <p>com o conhecimento que eu tenho atualmente, estou construindo um site sobre tecnologia, com o passar dos anos,
+                a técnologia se torna cada vez mais importante, trazendo necessidades básicas tecnológicas, tanto para meios
+                educacionais, quanto para profissionais.
+            </p>
 
-        <h3>A PRIMEIRA VERSÃO</h3>
-        <p>A orimeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill.
-            Ele conta que ele abriu a Inkscape (Software livre para vetorização de imagens), e criou sua própria versão de robô. 
-            O objetivo era personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa 
-            para criar um mascote.
-        </p>
-        
-        <div><img src="dan-droids.png" alt=""></div>
-        
-      
-        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
-        
-        <h3>SURGE UM NOVO MASCOTE</h3>
-        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para um profissional da área. A 
-            ilustradora Russa Irina Blok, também funcionária da Google, ficou m=com a missão de representar o pequeno robô
-            de uma maneira mais agradável.
-        </p>
-        <div><img src="irina-blok.jpg" alt=""></div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="TESTEDESAFIO10/IMAGENS/irina-blok-pq.jpg">
+                <img src="mao-segurando-o-fundo-da-tecnologia-globo_997534-2081.avif" alt="Tecnologia">
+                
+            </picture>
+            <h2>Importância da programação</h2>
+            <p> a programção é base para o mundo do meio digital, tudo que você vê no mundo digital, não passa de codificações
+                e algorítimosvoltados para as lógicas computacionais
+            </p>
+            
 
-        <p>
-            A ideia principal de Irina era representar tudo graficamente com poucos traços e de forma mais chapada.
-             O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, 
-             o novo mascote do Android.
-        </p>
-             <div><img src="bugdroid.png" alt=""></div>
-        
-
-
-
-        <p style="margin: 0px; padding: 0px 0px 20px 0px;">A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro
-            para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa de escritório 
-            da Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
-        </p>
+        </article>
         
 
     </main>
+    <aside>
 
-    <footer>
-        <h4 style="padding: 10px 0px 10px 10px; background-color: rgb(61, 204, 61);" >Quer aprender mais</h4>
-        <section>
-            <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi renomeada em homenagem a um doce, em ordem alfabética
-                a partir da versão 1.5 até a 9.0.
-            </p>
-            <ul>
-                <li>1.5 - Cupcake</li>
-                <li>1.6 - Donut</li>
-                <li>3.0 - Eclair</li>
-                <li>2.2 - Froyo</li>
-                <li>2.3 - Gingerbread</li>
-                <li>3.0 - Honeycomb</li>
-                <li>4.0 - Ice Cream Sandwich</li>
-                <li>4.1 - Jelly Bean</li>
-                <li>4.4 - KitKat</li>
-                <li>5.0 - Lolipop</li>
-                <li>6.0 - Marshmallow</li>
-                <li>7.0 - Nougat</li>
-                <li>8.0 - Oreo</li>
-                <li>9.0 - Pie</li>
-            </ul>
+        <h3>Linguagens de programação para começar</h3>
+
+        <ul>
+            <li><a href="">JavaScript</a></li>
+            <li><a href="">Phyton</a></li>
+            <li><a href="">Java</a></li>
+            <li><a href="">PHP</a></li>
+            <li><a href="">C</a></li>
+            <li><a href="">C#</a></li>
+            <li><a href="">C++</a></li>
+            <li><a href="">Ruby</a></li>
             
-                <p>Infelizmente, o Android Q não existiu, pois a Google pôr um fim a essa divertida prática e começou a usar numerações,
-                    o que deu origem ao Android 10.</p>
-                <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada
-                        uma trouxe para o sistema android.</p>
-        </section>
+        </ul>
+    </aside>
 
-
-        
-            <p>Então é isso! Espero que você tenha gostado do nosso artigo  com essa curiosidade sobre o sistema Android e o seu simpático mascote. </p>
-    </footer>
-    
+    <footer>Entre em contato conosco <strong><a href="">Instagram</a></strong></footer>
     
 </body>
 </html>
