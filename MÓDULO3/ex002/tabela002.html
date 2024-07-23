@@ -10,12 +10,24 @@
             
             
         }
+        h1{
+            text-align: center;
+        }
+        caption{
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1.5em;
+        border: solid 2px black;
+        background-color: yellow;
+        
+        }
         thead{
             background-color: lightgray;
         }
         table{
             border-collapse: collapse;
             text-align: center;
+            margin: auto;
         }
         td{
             border: solid 1px black;
@@ -58,15 +70,16 @@
             tr, td, th
     -->
             <table>
+                <caption>População das unidades federativas</caption>
                 <thead>
                     <tr>
-                        <th>Posição</th>
-                        <th>Unidade federativa</th>
-                        <th>População 2022</th>
-                        <th>População 2010</th>
-                        <th>Mudança</th>
-                        <th>% da população total</th>
-                        <th>País comparável</th>
+                        <th scope="col">Posição</th>
+                        <th scope="col">Unidade federativa</th>
+                        <th scope="col">População 2022</th>
+                        <th scope="col">População 2010</th>
+                        <th scope="col">Mudança</th>
+                        <th scope="col">% da população total</th>
+                        <th scope="col">País comparável</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -98,16 +111,79 @@
                         <td class="verde">7,91%</td>
                         <td><a href="">Camboja Camboja</a> (16 718 965)</td>
                     </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="">Bahia</a></td>
+                        <td>14 141 626</td>
+                        <td>14 016 906</td>
+                        <td class="verde">+0.89%</td>
+                        <td class="verde">6,96%</td>
+                        <td><a href="">Zimbabwe</a> (14 862 924)</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><a href="">Paraná</a></td>
+                        <td>11 444 380</td>
+                        <td>10 444 526</td>
+                        <td class="verde">+9.57%</td>
+                        <td class="verde">5,64%</td>
+                        <td> <a href="">Tunísia</a> (11 818 619)</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><a href="">Rio Grande do Sul</a></td>
+                        <td>10 882 965</td>
+                        <td>10 693 929</td>
+                        <td class="verde">+1.76%</td>
+                        <td class="verde">5,36%</td>
+                        <td><a href="">Portugal Portugal</a> (10 343 066)</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><a href="">Pernambuco</a></td>
+                        <td>9 058 931</td>
+                        <td>8 796 448</td>
+                        <td class="verde">+2.98%</td>
+                        <td class="verde">4,46%</td>
+                        <td> <a href="">Áustria</a> (9 006 398)</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><a href="">Ceára</a></td>
+                        <td>8 794 957</td>
+                        <td>8 452 381</td>
+                        <td class="verde">+4.05%</td>
+                        <td class="verde">4,33%</td>
+                        <td> <a href="">Papua-Nova Guiné</a> (8 947 024)</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><a href="">Pará</a></td>
+                        <td>8 121 025</td>
+                        <td>7 581 051</td>
+                        <td class="verde">+7.12%</td>
+                        <td class="verde">4,1%</td>
+                        <td> <a href="">Suíça</a> (8 654 622)</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><a href="">Santa Catarina</a></td>
+                        <td>7 610 361</td>
+                        <td>6 248 436</td>
+                        <td class="verde">+21.78%</td>
+                        <td class="verde">3,75%</td>
+                        <td><a href="">Laos</a> (7 749 595)</td>                   
+                    </tr>
 
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td>Total</td>
+                        <th scope="row" style="width: 50px;">Total</th>
                         <td><a href="">Brasil</a></td>
-                        <td>81 004 480</td>
-                        <td>76 849 458</td>
-                        <td class="verde">12,84%</td>
-                        <td class="verde">39,9%</td>
+                        <td>151 058 725</td>
+                        <td>143.083.135</td>
+                        <td class="verde">60,99%</td>
+                        <td class="verde">74,5%</td>
                         <td><a href="">Brasil</a></td>
                     </tr>
                     
