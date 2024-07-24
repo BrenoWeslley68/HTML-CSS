@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 4</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 255, 255);
+            
+        }
+        article{
+            margin: 30px 200px 0px 200px;
+            background-color: lightblue;
+            padding: 10px 0px 80px 0px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.158);
+        }
+        
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        caption{
+            border: solid 2px black;
+            font-weight: bold;
+            font-size: 1.5em;
+            background-color: yellow;
+            padding: 20px;
+            
+        }
+        th{
+            border: solid 1px black;
+            padding: 10px;
+            width: 100px;
+            text-align: center;
+            background-color: lightgray;
+        }
+        th:hover{
+            background-color: black;
+            color: white;
+            transition-duration: 0.5s;
+        }
+        td{
+            border: solid 1px black;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            background-color: white;
+        }
+        td:hover{
+            background-color: black;
+            color: white;
+            transition-duration: 0.5s;
+        }
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Exercício de tabelas</h1>
+        <table>
+            <caption>Filmes Favoritos</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Grupos</th>
+                    <th scope="col">Nomes</th>
+                    <th colspan="3" scope="colgroup">Filmes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3" scope="row" scope="rowgroup">Mulheres</th>
+                    <td>Ana Maria Santos</td>
+                    <td>Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr>
+                    <td>Beatriz Souza</td>
+                    <td>Hulk</td>
+                    <td>inception</td>
+                    <td>Batman</td>
+                </tr>
+                <tr>
+                    <td>Cláudia Melo</td>
+                    <td>Oblivion</td>
+                    <td>Matrix</td>
+                    <td>Big Hero</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Intocáveis</td>
+                    <td>Amnésia</td>
+                    <td>Gladiador</td>
+                </tr>
+                <tr>
+                    <td>Daniel Lourenço</td>
+                    <td>Wall-E</td>
+                    <td>OldBoy</td>
+                    <td>Dangal</td>
+                </tr>
+                <tr>
+                    <td>Fabiano Mota</td>
+                    <td>Star Wars V</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy Story</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    
+</body>
+</html>
