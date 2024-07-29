@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employ</title>
+    <style>
+        header{
+            min-width: 300px;
+            max-width: 1980px;
+        }
+        nav.bar{
+            background-color:#1EA358;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            display:inline-flex;
+            padding-right: 229px;
+            height: 110px;
+            font-size: 0.8em;
+            margin-bottom: 0px;
+            min-width: 300px;
+            max-width: 1980px;
+            
+        }
+        
+        nav.bar h1{
+            padding: 25px 30px 10px 30px;
+            color: white;
+            
+        }
+        nav.bar h1:hover{
+            color: black;
+        }
+        nav.bar a {
+            text-decoration: none;
+        }
+        img.logobar{
+            padding: 5px 10px 5px 10px;
+            background-color: black;
+            border-radius: 10px;
+            margin: 25px 20px 15px 300px;
+        }
+        nav.faleconosco{
+            background-color: #1EA358;
+            margin: 2px 21px 0px 0px;
+            max-width: 1883px;
+            min-width: 300px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 0px 0px 40px 0px;
+        }
+        nav.faleconosco h1{
+            color: white;
+            padding-top:40px ;
+            font-size: 2.5em;
+            text-align: center;
+            margin: 0px;
+        }
+        nav.faleconosco p{
+            color: white;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav.faleconosco a{
+            background-color: #213ED1;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            margin: 0px;
+        }
+        nav.faleconosco a:hover{
+            background-color: #0127ff;
+        }
+        nav.faleconosco p.botao{
+            margin: 0px;
+        }
+        article{
+            display: inline-flex;
+            margin-left: 60px;
+
+
+        }
+        nav.preço1{
+            background-color: #f0efef94;
+            width: 400px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.295);
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+            
+
+        }
+        nav.preço1 h1{
+            color: #1EA358;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav.preço1 p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav.preço1 p#basico {
+            font-size: 2em;
+        }
+        nav.preço1 a{
+            font-size: 1.3em;
+            color: white;
+            text-decoration: none;
+            background-color: #213ED1;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+        }
+        nav.preço1 a:hover{
+            background-color: #0127ff;
+        }
+        nav.preço2{
+            background-color: #f0efef94;
+            width: 400px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.295);
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+
+        }
+        nav.preço2 h1{
+            color: #1EA358;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav.preço2 p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav.preço2 p#profissional {
+            font-size: 2em;
+        }
+        nav.preço2 a{
+            font-size: 1.3em;
+            color: white;
+            text-decoration: none;
+            background-color: #213ED1;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+        }
+        nav.preço2 a:hover{
+            background-color: #0127ff;
+        }
+        nav.preço3{
+            background-color: #f0efef94;
+            width: 400px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.295);
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+
+        }
+        nav.preço3 h1{
+            color: #1EA358;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav.preço3 p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav.preço3 p#empresarial {
+            font-size: 2em;
+        }
+        nav.preço3 a{
+            font-size: 1.3em;
+            color: white;
+            text-decoration: none;
+            background-color: #213ED1;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+
+        }
+        nav.preço3 a:hover{
+            background-color: #0127ff;
+        }
+        nav.preço4{
+            background-color: #f0efef94;
+            width: 400px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.295);
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+
+        }
+        nav.preço4 h1{
+            color: #1EA358;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav.preço4 p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav.preço4 p#premium {
+            font-size: 2em;
+        }
+        nav.preço4 a{
+            font-size: 1.3em;
+            color: white;
+            text-decoration: none;
+            background-color: #213ED1;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            
+            
+        }
+        nav.preço4 a:hover{
+            background-color: #0127ff;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="bar">
+            <a href="#"><img src="Employ-logo-cor-fundo-preto (1).png" alt="" class="logobar"></a>
+            <a href=""><h1>Produtos</h1></a> 
+            <a href=""><h1>Centro de aprendizagem</h1></a> 
+            <a href=""><h1>Preços</h1></a>
+            <a href=""><h1>Assistir Demonstração</h1></a>
+            <a href=""><h1>Fale com vendas</h1></a>
+            <a href=""><h1>Conecte-se</h1></a>
+            <a href=""><h1>Iniciar</h1></a>
+            
+        </nav>
+    </header>
+    <main>
+        <nav class="faleconosco">
+            <h1>Planos de Preços</h1>
+            <p>Escolha o plano que melhor se adapta ás suas necessidades</p>
+            <p class="botao"><a href="">Fale Conosco</a></p>
+        </nav>
+
+        <article>
+            <nav class="preço1">
+                <h1>Básico</h1>
+                <p id="basico">R$9.99/mês</p>
+                <p>100 GB de Armazenamento</p>
+                <p>2 Contas de Usuário</p>
+                <p>Email Suporte</p>
+                <p><a href="">Assinar</a></p>
+            </nav>
+            <nav class="preço2">
+                <h1>Profissional</h1>
+                <p id="profissional">R$29.99/mês</p>
+                <p>1 TB de Armazenamento</p>
+                <p>5 Contas de Usuário</p>
+                <p>Prioridade no Suporte</p>
+                <p><a href="">Assinar</a></p>
+            </nav>
+            <nav class="preço3">
+                <h1>Empresarial</h1>
+                <p id="empresarial">R$49.99/mês</p>
+                <p>Armazenamento Ilimitado</p>
+                <p>15 Contas de Usuário</p>
+                <p>Suporte 24/7</p>
+                <p><a href="">Assinar</a></p>
+            </nav>
+            <nav class="preço4">
+                <h1>Premium</h1>
+                <p id="premium">R$99.99/mês</p>
+                <p>Todos os benefícios dos anteriores</p>
+                <p>+ Análises Avançadas</p>
+                <p>Sorteio a viagens multinacionais</p>
+                <p><a href="">Assinar</a></p>
+            </nav>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Breno Weslley</p>
+    </footer>
+    
+</body>
+</html>
