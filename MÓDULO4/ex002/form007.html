@@ -7,11 +7,46 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" autocomplete="on" method="get">
-        <p></p>
+    <form action="cadastro.php" autocomplete="on" method="post">
 
-
-    </form>
-    
+        <!-- O method GET tem uma limitação de 3mil bites, caso sejá um formulário muito extenso que estou pensando em desenvolver, o ideal é cria-lo com o method POST-->
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de janeiro</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS"> Mato Grosso do Sul</option>
+                <option value="PA">Pará</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="ilist">
+            <datalist id="ilist">
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option>Advogado</option>
+                <option>Professor</option>
+                <option>Fotógrafo</option>
+                <option>Motorista</option>
+                <option>Engenheiro</option>
+                <option>Mecânico</option>
+                <option>Arquiteto</option>
+                <option>Inventor</option>
+                <option>Historiador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>  
 </body>
 </html>
