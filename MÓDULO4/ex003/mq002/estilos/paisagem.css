@@ -1,2 +1,11 @@
 @charset "UTF-8";
 /* aparelho deitado (landscape) */
+
+body{
+    background-color: orange;
+    background: url(../imagens/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    
+}
