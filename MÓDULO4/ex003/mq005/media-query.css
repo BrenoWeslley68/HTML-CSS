@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    
+
+
+    
+    #burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    
+    body{
+        background-color: #E3E3E1;
+        
+    }
+    span{
+        display: none;
+    }
+    header{
+        background-color: #989896;
+    }
+    h1{
+        text-align: center;
+        padding: 10px;
+        
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3px;
+        list-style-type: none;
+        
+    }
+    li{
+        
+        padding: 10px;
+        background-color: #515251;
+        margin: 2px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    li:hover{
+        background-color: #E3E3E1;
+        transition-duration: 0.5s;
+        
+    }
+    a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    main{
+        margin-top: 5px;
+    }
+    article.main{
+        background-color: #FFFFFF;
+        max-width: 800px;
+        display: block;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+    p{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    }
+    @media screen and (min-width: 993px) and ( max-width:1200px){
+        #burguer{
+            display: none;
+        }
+        menu{
+            display: block;
+        }
+        
+        body{
+            background-color: #E3E3E1;
+            
+        }
+        header{
+            background-color: #989896;
+        }
+        h1{
+            text-align: center;
+            padding: 10px;
+            
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            margin-left: 3px;
+            list-style-type: none;
+            
+        }
+        li{
+            
+            padding: 10px;
+            background-color: #515251;
+            margin: 2px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+        }
+        li:hover{
+            background-color: #E3E3E1;
+            transition-duration: 0.5s;
+            
+        }
+        a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        main{
+            margin-top: 5px;
+        }
+        article.main{
+            background-color: #FFFFFF;
+            max-width: 800px;
+            display: block;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2{
+            margin-bottom: 10px;
+        }
+        p{
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        
+        #burguer{
+            display: none;
+            
+        }
+        menu{
+            display: block;
+        }
+
+        
+        body{
+            background-color: #E3E3E1;
+            
+        }
+        header{
+            background-color: #989896;
+        }
+        h1{
+            text-align: center;
+            padding: 10px;
+            
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            margin-left: 3px;
+            list-style-type: none;
+            
+        }
+        li{
+            
+            padding: 10px;
+            background-color: #515251;
+            margin: 2px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+        }
+        li:hover{
+            background-color: #E3E3E1;
+            transition-duration: 0.5s;
+            
+        }
+        a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        main{
+            margin-top: 5px;
+        }
+        article.main{
+            background-color: #FFFFFF;
+            max-width: 800px;
+            display: block;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2{
+            margin-bottom: 10px;
+        }
+        p{
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+    
+    }
